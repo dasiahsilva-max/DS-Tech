@@ -156,7 +156,6 @@ On the **Let's Connect** page, visitors can submit their name and phone number t
 ## ⚙️ Admin Dashboard
 
 **Access:** Click "⚙ Dashboard" in the navigation bar.  
-**Password:** `dstech2025`
 
 ### Dashboard Features
 
@@ -170,7 +169,7 @@ On the **Let's Connect** page, visitors can submit their name and phone number t
 | **Delete** | Remove individual requests |
 | **Lock** | Re-lock the dashboard |
 
-> ⚠️ **To change the admin password**, search the HTML for `const DASH_PASSWORD = 'dstech2025'` and update the value.
+> ⚠️ **To change the admin password**, search the HTML for `const DASH_PASSWORD = '
 
 ---
 
@@ -253,18 +252,7 @@ Download `dstech.html` and open it directly in any modern browser. All features 
 ### Option 4 — Shopify Theme
 A full Shopify OS 2.0 theme version (`dstech-shopify-theme.zip`) is also available with all sections editable in the Shopify Theme Customizer. See the Shopify theme README for setup instructions.
 
----
-
-## 🔑 Default Passwords
-
-| Panel | Password |
-|-------|----------|
-| Admin Dashboard | `dstech2025` |
-| Review Admin | `dstech2025` |
-
-> Change these by searching the HTML for `dstech2025` and replacing with your desired password.
-
----
+----
 
 ## 🛠️ Customization Guide
 
@@ -279,7 +267,6 @@ A full Shopify OS 2.0 theme version (`dstech-shopify-theme.zip`) is also availab
 | Colors | Update CSS variables at `:root` near the top of `<style>` |
 | Ticker items | Find `ticker-inner` div — edit `<span class="ticker-item">` elements |
 | Footer text | Find `footer-copy` spans |
-| Admin passwords | Search `dstech2025` — two instances |
 
 ---
 
